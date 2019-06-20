@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan("com.zero.mapper") //@MapperScan 用户扫描MyBatis的Mapper接口
 public class App {
 
+	// sdf
 	public static void main(String[] args) {
 		SpringApplication
 		.run(App.class, args);
