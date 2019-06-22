@@ -8,6 +8,11 @@ public class MainController {
 
 	@RequestMapping("/")
 	public String view(){
-		return "index";
-	} 
+		return "login";
+	}
+	
+	@RequestMapping("/404")
+	public String error(){
+		return "404";
+	}
 }
